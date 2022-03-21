@@ -6,7 +6,7 @@
 cargo new demo
 ```
 
-以上指令会在 ./demo 文件夹内新建一个 rust 项目，demo 为项目名称，可以任意指定
+以上指令会在 ./demo 文件夹内新建一个 rust 项目，demo 为项目名称，可以任意指定。  
 在 demo 文件夹内，文件夹格式如下
 
 ```bash
@@ -31,7 +31,7 @@ edition = "2021"
 [dependencies]
 ```
 
-这个文件是当前项目的配置文件，包括交叉编译配置、依赖配置、release 与 debug 模式行为配置等多种多样配置。
+这个文件是当前项目的配置文件，包括交叉编译配置、依赖配置、release 与 debug 模式行为配置等多种多样配置。  
 具体可以[参考](https://doc.rust-lang.org/cargo/reference/manifest.html)
 
 在`[package]` 中

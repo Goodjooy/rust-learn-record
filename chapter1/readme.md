@@ -12,8 +12,8 @@
 curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
 ```
 
-这条命令下载了一个用于下载安装最新版本的 `stable` 的 rust 的脚本
-安装过程中可能需要输入密码
+这条命令下载了一个用于下载安装最新版本的 `stable` 的 rust 的脚本  
+安装过程中可能需要输入密码  
 
 如果安装顺利，你将看到以下命令行输出
 
@@ -26,7 +26,7 @@ Rust is installed now. Great!
 ### Windows
 
 如果是 Windows 下安装 Rust
-可以前往 [rust 安装](https://www.rust-lang.org/tools/install)
+可以前往 [rust 安装](https://www.rust-lang.org/tools/install)  
 下载最新的安装包，然后进行 rust 的安装（一般情况下可以全部默认）
 
 - 通过配置 环境变量 `RUSTUP_HOME` 和 `CARGO_HOME`可以改变 rustup 和 cargo 的安装目录
@@ -39,7 +39,7 @@ Rust is installed now. Great!
 
 ## 安装成功标志
 
-具体版本可能有所不同
+> 具体版本可能有所不同  
 
 打开新的终端，输入
 
@@ -71,7 +71,6 @@ Rust is installed now. Great!
 
   ```bash
   rustup --version
-
   ```
 
   可以得到输出

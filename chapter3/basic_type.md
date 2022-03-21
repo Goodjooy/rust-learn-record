@@ -17,7 +17,7 @@
   | `isize`  | 有符号整型(长度类型) |
   | `usize`  | 无符号整型(长度类型) |
 
-  > `isize` 与 `usize` 与系统架构有关，通常用于表示数组等类型的长度
+  - `isize` 与 `usize` 与系统架构有关，通常用于表示数组等类型的长度
 
   - 在通常情况下，整型的运算是不会发生溢出的现象
     - 当运行状态为 `Debug` 模式时，rust 会将数值运算时出现的溢出视为异常而终止程序运行。如果溢出是预期的计算，可以使用 [`std::num::Wrapping`](https://doc.rust-lang.org/std/num/struct.Wrapping.html)来告知编译器溢出是预期的行为

@@ -10,13 +10,13 @@ Rust 是一门赋予每个人构建可靠且高效的软件的语言
 
 ## 目录
 
-1. [一切开始的开始：安装 rust 开发环境](./chapter1/mod.md)
-2. [您是否需要一个多功能管理工具？：Cargo与Rustup](./chapter2/mod.md)
-3. [熟悉的老朋友：基本数据类型与控制流](./chapter3/mod.md)
-4. [也许应该消灭一些中间变量：表达式与语句](./chapter4/mod.md)
-5. [第一公民：函数](./chapter5/mod.md)
-6. [可变与不可变：变量](./chapter6/mod.md)
-7. [熟悉的老朋友 2：Struct 类型](./chapter7/mod.md)
+1. [一切开始的开始：安装 rust 开发环境](./chapter1/readme.md)
+2. [您是否需要一个多功能管理工具？：Cargo与Rustup](./chapter2/readme.md)
+3. [熟悉的老朋友：基本数据类型与控制流](./chapter3/readme.md)
+4. [也许应该消灭一些中间变量：表达式与语句](./chapter4/readme.md)
+5. [第一公民：函数](./chapter5/readme.md)
+6. [可变与不可变：变量](./chapter6/readme.md)
+7. [熟悉的老朋友 2：Struct 类型](./chapter7/readme.md)
 8. [陌生的老朋友：Enum 类型](./chapter8/readme.md)
 9. [你看不到我：访问权限控制](./chapter9/readme.md)
 10. [绝望谷底：所有权、引用与生命周期](./chapter10/readme.md)
@@ -34,7 +34,7 @@ Rust 是一门赋予每个人构建可靠且高效的软件的语言
 22. [什么是强类型语言啊（战术后仰）：模式匹配]()
 23. [魔法就在我身边：宏]()
 24. [rust 黑魔法：unsafe]()
-25. [我是谁，我在哪：Rust Async 编程](./chapter25/mod.md)
+25. [我是谁，我在哪：Rust Async 编程](./chapter25/readme.md)
 26. [一些常用的 trait、类型、宏]()
 27. [好用的 crate 推荐]()
 
