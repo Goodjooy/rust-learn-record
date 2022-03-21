@@ -7,7 +7,7 @@
 
 - [栈上数据与堆中数据](./heap_stack.md)
 - [所有权与所有权转移](./ownership.md)
-- [克隆（`Clone`）与拷贝（`Copy`）]()
+- [克隆（`Clone`）与拷贝（`Copy`）](./clone_copy.md)
 - [引用]()
 - [生命周期]()
 
