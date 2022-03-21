@@ -7,13 +7,13 @@
 
 pub 语句有 4 种格式
 
-- pub
+- `pub`
   最简单常用的 pub 模式，这种 pub 模式可以被父级一级一级向往传递
-- pub(crate)
+- `pub(crate)`
   只在当前的 crate 中可见，如果这个 crate 作为依赖被引入将不可被访问
-- pub(super)
+- `pub(super)`
   只在父级可见
-- pub(in Path)
+- `pub(in Path)`
   只在指定 path 中可见
 
 ## pub 的位置
